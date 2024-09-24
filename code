@@ -1,0 +1,326 @@
+
+\documentclass[letterpaper,11pt]{article}
+
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\usepackage{graphicx}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+\RequirePackage{tikz}
+\RequirePackage{xcolor}
+\RequirePackage{fontawesome}
+\usepackage{tikz}
+\usetikzlibrary{svg.path}
+
+
+
+
+\definecolor{cvblue}{HTML}{0E5484}
+\definecolor{black}{HTML}{130810}
+\definecolor{darkcolor}{HTML}{0F4539}
+\definecolor{cvgreen}{HTML}{3BD80D}
+\definecolor{taggreen}{HTML}{00E278}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\colorlet{name}{black}
+\colorlet{tagline}{darkcolor}
+\colorlet{heading}{darkcolor}
+\colorlet{headingrule}{cvblue}
+\colorlet{accent}{darkcolor}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+
+
+
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+
+
+% \pagestyle{fancy}
+% \fancyhf{}  % clear all header and footer fields
+% \fancyfoot{}
+% \renewcommand{\headrulewidth}{0pt}
+% \renewcommand{\footrulewidth}{0pt}
+
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+
+\urlstyle{same}
+
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{\large#1} & \textbf{\small #2} \\
+      \textit{\large#3} & \textit{\small #4} \\
+     
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+
+
+
+\newcommand\sbullet[1][.5]{\mathbin{\vcenter{\hbox{\scalebox{#1}{$\bullet$}}}}}
+
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+\begin{document}
+
+
+%----------HEADING----------
+
+
+
+
+\begin{center}
+    {\Huge \scshape Aditya Kumar} \\ \vspace{1pt}
+    Ashram,New Delhi \\ \vspace{1pt}
+    \small \href{tel:+xxxxxxxxxxxx}{ \raisebox{-0.1\height}\faPhone\ \underline{+91-9818897245} ~} \href{mailto:yourname@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{aditykr2003@gmai.com}} ~
+    \href{www.linkedin.com/in/aditya-kumar-24437a258}{\raisebox{-0.2\height}\faLinkedinSquare\ \underline{Linkedin}}  ~
+    \href{https://github.com/iamadityakr}{\raisebox{-0.2\height}\faGithub\ \underline{github}}
+    \vspace{-8pt}
+\end{center}
+
+
+
+
+%-----------EDUCATION-----------
+\section{EDUCATION}
+\vspace{8pt}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {G.L Bajaj Institute of Technology and Management}{ 2021 -- 2025}
+      {B.Tech - Information Technology  \textbf{Percentage} - \textbf{79.15}}{Greater Noida,Uttar Pradesh}
+  \resumeSubHeadingListEnd
+ 
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {D.A.V Centenary Public School}{2019-2021}
+      { \textbf{Percentage} - \textbf{81.6\%}}{Siwam, Bihar}
+  \resumeSubHeadingListEnd
+
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Kendriya Vidyalaya Sangthan}{2019}
+      { \textbf{Percentage} - \textbf{78\%}}{Siwam, Bihar}
+  \resumeSubHeadingListEnd
+\vspace{4pt}
+
+%------RELEVANT COURSEWORK-------
+
+
+
+
+
+
+
+%-----------PROJECTS-----------
+\section{PROJECTS}
+    \vspace{4pt}
+    \resumeSubHeadingListStart
+       
+         
+      \resumeProjectHeading
+          {\href{ProjectLink.com}{\textbf{\large{\underline{N-Queen Visualizer}}}
+          \vspace{3pt}
+          \href{https://github.com/iamadityakr/N-queen-Problem}{\raisebox{-0.1\height}\faExternalLink }} $|$ \large{\underline{ HTML,CSS, JavaScript, IDE- VS Code}}}{}
+          \resumeItemListStart
+            \resumeItem{\normalsize{ The n-queens puzzle is the problem of placing N queens on an N x N chessboard. \textbf{}.}}
+            \resumeItem{\normalsize{Such that no two queens attack each other. \textbf{}.}}
+            \resumeItem{\normalsize{Given an integer N(user input),we will show all distinct solutions to the N-queens puzzle. \textbf{}.}}
+            \resumeItem{\normalsize{ This algorithm is designed using recursion and BackTracking. \textbf{}.}}
+            
+          \resumeItemListEnd
+          \vspace{-8pt}
+         
+          \resumeProjectHeading
+          {\href{ProjectLink.com}{\textbf{\large{\underline{Business Application}}} \href{Project Link}{\raisebox{-0.1\height}\faExternalLink }} $|$ \large{\underline{React Native,Fetch API,Firebase,Local Storage,React Router,Figma}}}{}
+          \resumeItemListStart
+           \resumeItem{\normalsize{This is Ract Native based Mobile Aplication. \textbf{} }}
+            \resumeItem{\normalsize{Small business try to expand their business with the help of stablished business. \textbf{} }}
+             \resumeItem{\normalsize{Stablished or larger user base business helps local business. \textbf{} }}
+             
+               
+           
+          \resumeItemListEnd
+         \vspace{-8pt}
+
+          \resumeProjectHeading
+          {\href{ProjectLink.com}{\textbf{\large{\underline{Meme Master}}} \href{https://make-memes-pied.vercel.app/}{\raisebox{-0.1\height}\faExternalLink }} $|$ \large{\underline{HTML5,CSS,JavaSCript,Fetch API,Local Storage}}}{}
+          \resumeItemListStart
+            \resumeItem{\normalsize{Meme Master is a meme generator. Users can create memes by selecting templates or uploading images and easily
+ edit text captions to customize their creations. \textbf{} }}
+             \resumeItem{\normalsize{ The tool offers real-time previews, and users can save their memes on the website for later viewing and sharing. \textbf{} }}
+              
+          \resumeItemListEnd
+           \resumeProjectHeading
+          {\href{ProjectLink.com}{\textbf{\large{\underline{Personal Portfolio}}} \href{https://github.com/iamadityakr/personal-Portfolio1}{\raisebox{-0.1\height}\faExternalLink }} $|$ \large{\underline{React Native,Fetch API,Firebase,Local Storage,React Router,Figma}}}{}
+          \resumeItemListStart
+            \resumeItem{\normalsize{Website which very simple and user friendly. \textbf{} }}
+             \resumeItem{\normalsize{ website give knowledge about my me. \textbf{} }}
+              \resumeItem{\normalsize{ This is frontend Project. \textbf{} }}
+               
+           
+          \resumeItemListEnd
+         \vspace{-8pt}
+         
+         
+    \resumeSubHeadingListEnd
+\vspace{4pt}
+
+
+%
+
+
+
+
+%-----------EXPERIENCE-----------
+
+%-----------PROGRAMMING SKILLS-----------
+\section{TECHNICAL SKILLS}
+\vspace{6pt}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{\normalsize{Languages:}}{ \normalsize{C , C++ , JavaScript , HTML5 , CSS }} \\
+     \vspace{4pt}
+     \textbf{\normalsize{Developer Tools:}}{ \normalsize{VS Code, Github , Figma , Canva}} \\
+     \vspace{4pt}
+     \textbf{\normalsize{Technologies/Frameworks:}}{\normalsize{Bootstrap , Tailwind }} \\
+    }}
+ \end{itemize}
+ \vspace{-2pt}
+
+
+
+
+%-----------INVOLVEMENT---------------
+\section{EXTRACURRICULAR}
+    \resumeSubHeadingListStart
+       
+            \resumeItemListStart
+            \resumeItem{\normalsize{Second Runner-up in inter college hackathon (Finxthon). \textbf{}}}
+                \resumeItem{\normalsize{first runner up in Nation Children’s Science Congress Exhibition. \textbf{}}}
+                 \resumeItem{\normalsize{Second runner up in Classical group song in Social Science Exhibition. \textbf{}}}
+                 
+                 
+               
+            \resumeItemListEnd
+    \resumeSubHeadingListEnd
+ \vspace{-11pt}
+ 
+ %-----------CERTIFICATIONS---------------
+
+
+
+
+
+
+
+
+\end{document}
+
+
+
+
+
